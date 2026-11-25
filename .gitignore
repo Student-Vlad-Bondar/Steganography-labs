@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Віртуальні середовища та змінні оточення
+venv/
+.venv/
+env/
+.env
+
+# IDE та редактори
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тимчасові файли MS Office (Word / Excel) та ОС
+~$*
+*.tmp
+*.bak
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Розкоментуйте рядок нижче, якщо не хочете зберігати .wav файли на Git
+# *.wav
